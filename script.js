@@ -18,4 +18,4 @@ document.querySelectorAll('.footer i').forEach(icon => {
   })
 })
 
-imageMetaTag.setAttribute('content', `${location.href}img/katech.png`)
+imageMetaTag.setAttribute('content', `${location.href}/img/katech.png`.replace('//img', '/img'))
