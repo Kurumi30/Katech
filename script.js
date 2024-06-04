@@ -1,6 +1,5 @@
 const menu = document.querySelector('#menu-icon')
 const navbar = document.querySelector('.navbar')
-const imageMetaTag = document.querySelector('meta[property="og:image"]')
 
 menu.onclick = () => {
   menu.classList.toggle('bx-x')
@@ -17,5 +16,3 @@ document.querySelectorAll('.footer i').forEach(icon => {
     open(this.children[0].href, '_blank')
   })
 })
-
-imageMetaTag.setAttribute('content', `${location.href}/img/katech.png`.replace('//img', '/img'))
